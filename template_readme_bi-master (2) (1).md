@@ -1,20 +1,15 @@
-# Título do Trabalho
+# SEGMENTAÇÃO MULTI-CLASSES DE DADOS GEOFÍSICOS DE ALTA RESOLUÇÃO (SSS) UTILIZANDO DEEP LEARNING
 
-#### Aluno: [Nome Sobrenome](https://github.com/link_do_github)
-#### Orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
+#### Aluno: [Cicero Pereira Batista Junior](https://github.com/cicero26)
+#### Orientador: [Leonardo Forero Mendoza](https://github.com/leofome8)
 
 ---
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-- [Link para o código](https://github.com/link_do_repositorio). <!-- caso não aplicável, remover esta linha -->
+---
 
-- [Link para a monografia](https://link_da_monografia.com). <!-- caso não aplicável, remover esta linha -->
-
-- Trabalhos relacionados: <!-- caso não aplicável, remover estas linhas -->
-    - [Nome do Trabalho 1](https://link_do_trabalho.com).
-    - [Nome do Trabalho 2](https://link_do_trabalho.com).
+- [Descrição detalhada do trabalho](https://github.com/Cicero26/monografia/blob/main/README.pdf). <!-- caso não aplicável, remover esta linha -->
 
 ---
 
@@ -22,17 +17,22 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 <!-- trocar o texto abaixo pelo resumo do trabalho -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+No presente trabalho foram aplicadas e avaliadas técnicas de Deep Learning capazes de realizar a segmentação de imagens acústicas submarinas, oriundas dos dados geofísicos de alta resolução (Side Scan Sonar - SSS), em duas classes de feições naturais distintas: alvo refletivo e fundo lamoso.
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Tendo como inputs os dados de SSS, a utilização de modelos de Deep Learning objetiva automatização do mapeamento de feições naturais no leito marinho, através da segmentação de imagens, que atualmente é realizada de maneira manual.
 
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+A segmentação das imagens acústicas submarinas (SSS) foi baseada em Redes Neurais Totalmente Convolucionais (fully convolutional network) do tipo U-Net.
 
-Proin suscipit sapien in maximus feugiat. Suspendisse potenti. Nunc sollicitudin ultrices pharetra. Nunc volutpat in nunc ac sagittis. Sed eu turpis non elit sagittis tempus. Etiam sapien nunc, mattis non justo non, imperdiet malesuada sapien. Vestibulum enim magna, venenatis quis purus id, blandit ullamcorper nunc. Aenean ut neque vehicula, malesuada metus in, congue massa.
+Foram utilizadas 3 redes U-Net onde foram realizadas dezenas de simulações, alterando determinados hiperparâmetros, até que se obtivessem as melhores performances de cada rede. 
+
+Todas as 3 redes U-Net obtiveram resultados muito satisfatórios, com acurácia acima de 98%, sendo que a rede U-Net 1 foi a que obteve o melhor resultado com acurácia na faixa de 99,8%.
+
+A realização deste trabalho permitiu comprovar a importância das redes U-Net na tarefa de segmentação de imagens, inclusive para aplicação em imagens acústicas submarinas (Side Scan Sonar - SSS), atingindo resultados muito convicentes.
+
 
 ---
 
-Matrícula: 123.456.789
+Matrícula: 192.190.097
 
 Pontifícia Universidade Católica do Rio de Janeiro
 
